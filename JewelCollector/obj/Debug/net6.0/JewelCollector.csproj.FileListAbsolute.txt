@@ -1,0 +1,15 @@
+/home/hugo/Documents/INF099-TecnologiasMicrosoft/INF-0990-Csharp/Projeto_INF0990/JewelCollector/bin/Debug/net6.0/JewelCollector
+/home/hugo/Documents/INF099-TecnologiasMicrosoft/INF-0990-Csharp/Projeto_INF0990/JewelCollector/bin/Debug/net6.0/JewelCollector.deps.json
+/home/hugo/Documents/INF099-TecnologiasMicrosoft/INF-0990-Csharp/Projeto_INF0990/JewelCollector/bin/Debug/net6.0/JewelCollector.runtimeconfig.json
+/home/hugo/Documents/INF099-TecnologiasMicrosoft/INF-0990-Csharp/Projeto_INF0990/JewelCollector/bin/Debug/net6.0/JewelCollector.dll
+/home/hugo/Documents/INF099-TecnologiasMicrosoft/INF-0990-Csharp/Projeto_INF0990/JewelCollector/bin/Debug/net6.0/ref/JewelCollector.dll
+/home/hugo/Documents/INF099-TecnologiasMicrosoft/INF-0990-Csharp/Projeto_INF0990/JewelCollector/bin/Debug/net6.0/JewelCollector.pdb
+/home/hugo/Documents/INF099-TecnologiasMicrosoft/INF-0990-Csharp/Projeto_INF0990/JewelCollector/obj/Debug/net6.0/JewelCollector.csproj.AssemblyReference.cache
+/home/hugo/Documents/INF099-TecnologiasMicrosoft/INF-0990-Csharp/Projeto_INF0990/JewelCollector/obj/Debug/net6.0/JewelCollector.GeneratedMSBuildEditorConfig.editorconfig
+/home/hugo/Documents/INF099-TecnologiasMicrosoft/INF-0990-Csharp/Projeto_INF0990/JewelCollector/obj/Debug/net6.0/JewelCollector.AssemblyInfoInputs.cache
+/home/hugo/Documents/INF099-TecnologiasMicrosoft/INF-0990-Csharp/Projeto_INF0990/JewelCollector/obj/Debug/net6.0/JewelCollector.AssemblyInfo.cs
+/home/hugo/Documents/INF099-TecnologiasMicrosoft/INF-0990-Csharp/Projeto_INF0990/JewelCollector/obj/Debug/net6.0/JewelCollector.csproj.CoreCompileInputs.cache
+/home/hugo/Documents/INF099-TecnologiasMicrosoft/INF-0990-Csharp/Projeto_INF0990/JewelCollector/obj/Debug/net6.0/JewelCollector.dll
+/home/hugo/Documents/INF099-TecnologiasMicrosoft/INF-0990-Csharp/Projeto_INF0990/JewelCollector/obj/Debug/net6.0/ref/JewelCollector.dll
+/home/hugo/Documents/INF099-TecnologiasMicrosoft/INF-0990-Csharp/Projeto_INF0990/JewelCollector/obj/Debug/net6.0/JewelCollector.pdb
+/home/hugo/Documents/INF099-TecnologiasMicrosoft/INF-0990-Csharp/Projeto_INF0990/JewelCollector/obj/Debug/net6.0/JewelCollector.genruntimeconfig.cache
