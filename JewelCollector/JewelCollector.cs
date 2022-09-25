@@ -1,5 +1,7 @@
 ﻿namespace jewelproject;
-
+/// <summary>
+/// Classe onde o jogo é construído.
+/// </summary>
 public class JewelCollector
 {
     static void Main()
@@ -37,17 +39,30 @@ public class JewelCollector
             if (command.Equals("quit")) {
                 running = false;
             } else if (command.Equals("w")) {
-                
-
+                mapa.moveRobotUp(robo);
+                mapa.PrintMap();
+                robo.PrintPoints();
             } else if (command.Equals("a")) {
-              
+                mapa.moveRobotLeft(robo);
+                mapa.PrintMap();
+                robo.PrintPoints();          
             } else if (command.Equals("s")) {
-            
+                mapa.moveRobotDown(robo);
+                mapa.PrintMap();
+                robo.PrintPoints();
             } else if (command.Equals("d")) {
-          
+                mapa.moveRobotRight(robo);
+                mapa.PrintMap();
+                robo.PrintPoints();
             } else if (command.Equals("g")) {
-              
+                mapa.findJewel(robo);
+                mapa.PrintMap();
+                robo.PrintPoints();
             }
+            if(running){
+                running = robo.checkEnergy();
+            }
+            mapa.novaFase(robo);
         } while (running);
     }
 

@@ -1,0 +1,209 @@
+\hypertarget{class_robot}{}\doxysection{Robot Class Reference}
+\label{class_robot}\index{Robot@{Robot}}
+
+
+Inheritance diagram for Robot\+:
+% FIG 0
+
+
+Collaboration diagram for Robot\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_robot_ae72924cbb5570401f991d423986e5243}{Robot}} (int x, int y)
+\begin{DoxyCompactList}\small\item\em Construtor da classe \mbox{\hyperlink{class_robot}{Robot}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_robot_ac6bd7a21933874bc3d77bbb287a3903a}{move\+Down}} ()
+\begin{DoxyCompactList}\small\item\em Altera a posição do robô levando ele para baixo. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_robot_a15e52d03aa47e6f6176ae3635b16a599}{move\+Up}} ()
+\begin{DoxyCompactList}\small\item\em Altera a posição do robô levando ele para cima. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_robot_aed8f32acad62444fc70553471ed86a71}{move\+Left}} ()
+\begin{DoxyCompactList}\small\item\em Altera a posição do robô levando ele para esquerda. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_robot_a387d030bc838f35072986ea2fb4b6fae}{move\+Right}} ()
+\begin{DoxyCompactList}\small\item\em Altera a posição do robô levando ele para direita. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_robot_aab9ba321cea8f1e7a341a4d6ab87c227}{add\+Jewell}} (\mbox{\hyperlink{class_jewel}{Jewel}} jewel)
+\begin{DoxyCompactList}\small\item\em Adiciona jóia na bag do robô. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_robot_a9a271b08ee36789ef7c9063b48694296}{count\+Jewel}} ()
+\begin{DoxyCompactList}\small\item\em Conta quantas jóias estão na sacola do robô. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_robot_a89c93dc2f7bd55ca85592fad730e4a8c}{lost\+Energy}} (int lost)
+\begin{DoxyCompactList}\small\item\em Tira energia do robô. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_robot_a9b697e822d72b8f5bca90e888b667c72}{recharge\+Energy}} (int energy)
+\begin{DoxyCompactList}\small\item\em Recarrega energia do robô. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_robot_afe29d8bf39311189d8665c1dec1a8c9d}{zera\+Posicao}} ()
+\begin{DoxyCompactList}\small\item\em Zera os inteiros com a posição atual e a anterior do robô. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_robot_a543470c2f6296ee90499b8639c98b3b7}{check\+Energy}} ()
+\begin{DoxyCompactList}\small\item\em Verifica quanto de energia o robô tem e retorna boolean indicando se o robô pode continuar a se mexer. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_robot_aab2552b92e4923480ba43ff9f0e4889e}{Print\+Points}} ()
+\begin{DoxyCompactList}\small\item\em Imprime na tela quantas jóias, valor total em jóias e energia do robô. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_robot_a92ac5ab6f338de18112647723300917e}\label{class_robot_a92ac5ab6f338de18112647723300917e}} 
+int {\bfseries xant}
+\item 
+\mbox{\Hypertarget{class_robot_afdbaef6a1db6dff078050823d3527697}\label{class_robot_afdbaef6a1db6dff078050823d3527697}} 
+int {\bfseries value} = 0
+\item 
+\mbox{\Hypertarget{class_robot_ad7d9a7fd949f73f86f62e0d5247b212a}\label{class_robot_ad7d9a7fd949f73f86f62e0d5247b212a}} 
+int {\bfseries energy} = 5
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_robot_ae72924cbb5570401f991d423986e5243}\label{class_robot_ae72924cbb5570401f991d423986e5243}} 
+\index{Robot@{Robot}!Robot@{Robot}}
+\index{Robot@{Robot}!Robot@{Robot}}
+\doxysubsubsection{\texorpdfstring{Robot()}{Robot()}}
+{\footnotesize\ttfamily Robot.\+Robot (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Construtor da classe \mbox{\hyperlink{class_robot}{Robot}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Inteiro da posição da linha no mapa.\\
+\hline
+{\em y} & Inteiro da posição da coluna no mapa.\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_robot_aab9ba321cea8f1e7a341a4d6ab87c227}\label{class_robot_aab9ba321cea8f1e7a341a4d6ab87c227}} 
+\index{Robot@{Robot}!addJewell@{addJewell}}
+\index{addJewell@{addJewell}!Robot@{Robot}}
+\doxysubsubsection{\texorpdfstring{addJewell()}{addJewell()}}
+{\footnotesize\ttfamily void Robot.\+add\+Jewell (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_jewel}{Jewel}}}]{jewel }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Adiciona jóia na bag do robô. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em jewel} & Objetio do tipo jóia a ser adicionado.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_robot_a543470c2f6296ee90499b8639c98b3b7}\label{class_robot_a543470c2f6296ee90499b8639c98b3b7}} 
+\index{Robot@{Robot}!checkEnergy@{checkEnergy}}
+\index{checkEnergy@{checkEnergy}!Robot@{Robot}}
+\doxysubsubsection{\texorpdfstring{checkEnergy()}{checkEnergy()}}
+{\footnotesize\ttfamily bool Robot.\+check\+Energy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Verifica quanto de energia o robô tem e retorna boolean indicando se o robô pode continuar a se mexer. 
+
+\begin{DoxyReturn}{Returns}
+Boolean que indica se robô tem energia para se mover.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_robot_a9a271b08ee36789ef7c9063b48694296}\label{class_robot_a9a271b08ee36789ef7c9063b48694296}} 
+\index{Robot@{Robot}!countJewel@{countJewel}}
+\index{countJewel@{countJewel}!Robot@{Robot}}
+\doxysubsubsection{\texorpdfstring{countJewel()}{countJewel()}}
+{\footnotesize\ttfamily int Robot.\+count\+Jewel (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Conta quantas jóias estão na sacola do robô. 
+
+\begin{DoxyReturn}{Returns}
+Retorna inteiro com o número de jóias.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_robot_a89c93dc2f7bd55ca85592fad730e4a8c}\label{class_robot_a89c93dc2f7bd55ca85592fad730e4a8c}} 
+\index{Robot@{Robot}!lostEnergy@{lostEnergy}}
+\index{lostEnergy@{lostEnergy}!Robot@{Robot}}
+\doxysubsubsection{\texorpdfstring{lostEnergy()}{lostEnergy()}}
+{\footnotesize\ttfamily void Robot.\+lost\+Energy (\begin{DoxyParamCaption}\item[{int}]{lost }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Tira energia do robô. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lost} & Inteiro com valor a ser retirado de energia.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_robot_ac6bd7a21933874bc3d77bbb287a3903a}\label{class_robot_ac6bd7a21933874bc3d77bbb287a3903a}} 
+\index{Robot@{Robot}!moveDown@{moveDown}}
+\index{moveDown@{moveDown}!Robot@{Robot}}
+\doxysubsubsection{\texorpdfstring{moveDown()}{moveDown()}}
+{\footnotesize\ttfamily void Robot.\+move\+Down (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Altera a posição do robô levando ele para baixo. 
+
+\mbox{\Hypertarget{class_robot_aed8f32acad62444fc70553471ed86a71}\label{class_robot_aed8f32acad62444fc70553471ed86a71}} 
+\index{Robot@{Robot}!moveLeft@{moveLeft}}
+\index{moveLeft@{moveLeft}!Robot@{Robot}}
+\doxysubsubsection{\texorpdfstring{moveLeft()}{moveLeft()}}
+{\footnotesize\ttfamily void Robot.\+move\+Left (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Altera a posição do robô levando ele para esquerda. 
+
+\mbox{\Hypertarget{class_robot_a387d030bc838f35072986ea2fb4b6fae}\label{class_robot_a387d030bc838f35072986ea2fb4b6fae}} 
+\index{Robot@{Robot}!moveRight@{moveRight}}
+\index{moveRight@{moveRight}!Robot@{Robot}}
+\doxysubsubsection{\texorpdfstring{moveRight()}{moveRight()}}
+{\footnotesize\ttfamily void Robot.\+move\+Right (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Altera a posição do robô levando ele para direita. 
+
+\mbox{\Hypertarget{class_robot_a15e52d03aa47e6f6176ae3635b16a599}\label{class_robot_a15e52d03aa47e6f6176ae3635b16a599}} 
+\index{Robot@{Robot}!moveUp@{moveUp}}
+\index{moveUp@{moveUp}!Robot@{Robot}}
+\doxysubsubsection{\texorpdfstring{moveUp()}{moveUp()}}
+{\footnotesize\ttfamily void Robot.\+move\+Up (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Altera a posição do robô levando ele para cima. 
+
+\mbox{\Hypertarget{class_robot_aab2552b92e4923480ba43ff9f0e4889e}\label{class_robot_aab2552b92e4923480ba43ff9f0e4889e}} 
+\index{Robot@{Robot}!PrintPoints@{PrintPoints}}
+\index{PrintPoints@{PrintPoints}!Robot@{Robot}}
+\doxysubsubsection{\texorpdfstring{PrintPoints()}{PrintPoints()}}
+{\footnotesize\ttfamily void Robot.\+Print\+Points (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Imprime na tela quantas jóias, valor total em jóias e energia do robô. 
+
+\mbox{\Hypertarget{class_robot_a9b697e822d72b8f5bca90e888b667c72}\label{class_robot_a9b697e822d72b8f5bca90e888b667c72}} 
+\index{Robot@{Robot}!rechargeEnergy@{rechargeEnergy}}
+\index{rechargeEnergy@{rechargeEnergy}!Robot@{Robot}}
+\doxysubsubsection{\texorpdfstring{rechargeEnergy()}{rechargeEnergy()}}
+{\footnotesize\ttfamily void Robot.\+recharge\+Energy (\begin{DoxyParamCaption}\item[{int}]{energy }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Recarrega energia do robô. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em energy} & Inteiro com valor do robô a ser recarregado.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_robot_afe29d8bf39311189d8665c1dec1a8c9d}\label{class_robot_afe29d8bf39311189d8665c1dec1a8c9d}} 
+\index{Robot@{Robot}!zeraPosicao@{zeraPosicao}}
+\index{zeraPosicao@{zeraPosicao}!Robot@{Robot}}
+\doxysubsubsection{\texorpdfstring{zeraPosicao()}{zeraPosicao()}}
+{\footnotesize\ttfamily void Robot.\+zera\+Posicao (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Zera os inteiros com a posição atual e a anterior do robô. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Robot.\+cs\end{DoxyCompactItemize}

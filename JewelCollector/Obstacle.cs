@@ -1,5 +1,7 @@
 namespace jewelproject;
-
-public class Obstacle : MapObject
+/// <summary>
+/// Classe Obstacle
+/// </summary>
+public abstract class Obstacle : MapObject
 {
 }

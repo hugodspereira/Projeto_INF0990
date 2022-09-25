@@ -1,0 +1,203 @@
+\hypertarget{class_map}{}\doxysection{Map Class Reference}
+\label{class_map}\index{Map@{Map}}
+
+
+Collaboration diagram for Map\+:
+% FIG 0
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_map_af020476bbce3b6eb3e74621d8503a957}{Map}} ()
+\begin{DoxyCompactList}\small\item\em Construtor do Mapa do Jogo. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_map_a0f8f64ce91638fc06de8b0e9f815be3f}{Print\+Map}} ()
+\begin{DoxyCompactList}\small\item\em Imprime mapa na tela. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_map_ab81c4cb0775f570e36066ba75147fbbf}{add\+Obstacle}} (\mbox{\hyperlink{class_obstacle}{Obstacle}} obstacle)
+\begin{DoxyCompactList}\small\item\em Adiciona objeto do tipo \mbox{\hyperlink{class_obstacle}{Obstacle}} no mapa. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_map_a9753b8b9a69dcaa391e56815672527ac}{add\+Jewell}} (\mbox{\hyperlink{class_jewel}{Jewel}} jewel)
+\begin{DoxyCompactList}\small\item\em Objeto do tipo \mbox{\hyperlink{class_jewel}{Jewel}} a ser adicionado no mapa. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_map_a3a7e9ac7fc9e4d8539b25fde7bc6d5d0}{add\+Robot}} (\mbox{\hyperlink{class_robot}{Robot}} robot)
+\begin{DoxyCompactList}\small\item\em Adiciona robô no mapa. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_map_afd4e0b7f66e97476d2a6e75ee16aa3b5}{move\+Robot\+Down}} (\mbox{\hyperlink{class_robot}{Robot}} robot)
+\begin{DoxyCompactList}\small\item\em Método para mover o robô para baixo. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_map_ab59c5f2f1faf825f2e36a1aec5de253d}{move\+Robot\+Up}} (\mbox{\hyperlink{class_robot}{Robot}} robot)
+\begin{DoxyCompactList}\small\item\em Método para mover o robô para cima. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_map_a8657cc7d2975011480397044f00e1110}{move\+Robot\+Left}} (\mbox{\hyperlink{class_robot}{Robot}} robot)
+\begin{DoxyCompactList}\small\item\em Método para mover o robô para esquerda. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_map_a030abf05e21b9934308cf1fdbc3365a2}{move\+Robot\+Right}} (\mbox{\hyperlink{class_robot}{Robot}} robot)
+\begin{DoxyCompactList}\small\item\em Método para mover o robô para direita. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_map_a74d88fc2b3b9fd764a1856c1e0a91e1e}{find\+Jewel}} (\mbox{\hyperlink{class_robot}{Robot}} robot)
+\begin{DoxyCompactList}\small\item\em Método que tira jóia do mapa e passa para o robô. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_map_a934b9eb4bcaa6a481d593cc26f058b7e}{nova\+Fase}} (\mbox{\hyperlink{class_robot}{Robot}} robo)
+\begin{DoxyCompactList}\small\item\em Verifica o número de jóias no mapa e começa nova fase caso tenham acabado. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_map_a07977bcaceb581bf4f884f9a98baeb43}\label{class_map_a07977bcaceb581bf4f884f9a98baeb43}} 
+\mbox{\hyperlink{class_map_object}{Map\+Object}}\mbox{[},\mbox{]} {\bfseries map} = new \mbox{\hyperlink{class_map_object}{Map\+Object}}\mbox{[}10,10\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_map_af020476bbce3b6eb3e74621d8503a957}\label{class_map_af020476bbce3b6eb3e74621d8503a957}} 
+\index{Map@{Map}!Map@{Map}}
+\index{Map@{Map}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{Map()}{Map()}}
+{\footnotesize\ttfamily Map.\+Map (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Construtor do Mapa do Jogo. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_map_a9753b8b9a69dcaa391e56815672527ac}\label{class_map_a9753b8b9a69dcaa391e56815672527ac}} 
+\index{Map@{Map}!addJewell@{addJewell}}
+\index{addJewell@{addJewell}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{addJewell()}{addJewell()}}
+{\footnotesize\ttfamily void Map.\+add\+Jewell (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_jewel}{Jewel}}}]{jewel }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Objeto do tipo \mbox{\hyperlink{class_jewel}{Jewel}} a ser adicionado no mapa. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em jewel} & Objeto do tipo \mbox{\hyperlink{class_jewel}{Jewel}}\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_map_ab81c4cb0775f570e36066ba75147fbbf}\label{class_map_ab81c4cb0775f570e36066ba75147fbbf}} 
+\index{Map@{Map}!addObstacle@{addObstacle}}
+\index{addObstacle@{addObstacle}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{addObstacle()}{addObstacle()}}
+{\footnotesize\ttfamily void Map.\+add\+Obstacle (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_obstacle}{Obstacle}}}]{obstacle }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Adiciona objeto do tipo \mbox{\hyperlink{class_obstacle}{Obstacle}} no mapa. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em obstacle} & Objeto do tipo \mbox{\hyperlink{class_obstacle}{Obstacle}} instanciado.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_map_a3a7e9ac7fc9e4d8539b25fde7bc6d5d0}\label{class_map_a3a7e9ac7fc9e4d8539b25fde7bc6d5d0}} 
+\index{Map@{Map}!addRobot@{addRobot}}
+\index{addRobot@{addRobot}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{addRobot()}{addRobot()}}
+{\footnotesize\ttfamily void Map.\+add\+Robot (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_robot}{Robot}}}]{robot }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Adiciona robô no mapa. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em robot} & Objeto do tipo robô adicionado no mapa do jogo.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_map_a74d88fc2b3b9fd764a1856c1e0a91e1e}\label{class_map_a74d88fc2b3b9fd764a1856c1e0a91e1e}} 
+\index{Map@{Map}!findJewel@{findJewel}}
+\index{findJewel@{findJewel}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{findJewel()}{findJewel()}}
+{\footnotesize\ttfamily void Map.\+find\+Jewel (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_robot}{Robot}}}]{robot }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Método que tira jóia do mapa e passa para o robô. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em robot} & Objeto do robô que receberá a joia.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_map_afd4e0b7f66e97476d2a6e75ee16aa3b5}\label{class_map_afd4e0b7f66e97476d2a6e75ee16aa3b5}} 
+\index{Map@{Map}!moveRobotDown@{moveRobotDown}}
+\index{moveRobotDown@{moveRobotDown}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{moveRobotDown()}{moveRobotDown()}}
+{\footnotesize\ttfamily void Map.\+move\+Robot\+Down (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_robot}{Robot}}}]{robot }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Método para mover o robô para baixo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em robot} & Objeto do tipo \mbox{\hyperlink{class_robot}{Robot}} a ser movido.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_map_a8657cc7d2975011480397044f00e1110}\label{class_map_a8657cc7d2975011480397044f00e1110}} 
+\index{Map@{Map}!moveRobotLeft@{moveRobotLeft}}
+\index{moveRobotLeft@{moveRobotLeft}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{moveRobotLeft()}{moveRobotLeft()}}
+{\footnotesize\ttfamily void Map.\+move\+Robot\+Left (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_robot}{Robot}}}]{robot }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Método para mover o robô para esquerda. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em robot} & Objeto do tipo \mbox{\hyperlink{class_robot}{Robot}} a ser movido.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_map_a030abf05e21b9934308cf1fdbc3365a2}\label{class_map_a030abf05e21b9934308cf1fdbc3365a2}} 
+\index{Map@{Map}!moveRobotRight@{moveRobotRight}}
+\index{moveRobotRight@{moveRobotRight}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{moveRobotRight()}{moveRobotRight()}}
+{\footnotesize\ttfamily void Map.\+move\+Robot\+Right (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_robot}{Robot}}}]{robot }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Método para mover o robô para direita. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em robot} & Objeto do tipo \mbox{\hyperlink{class_robot}{Robot}} a ser movido.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_map_ab59c5f2f1faf825f2e36a1aec5de253d}\label{class_map_ab59c5f2f1faf825f2e36a1aec5de253d}} 
+\index{Map@{Map}!moveRobotUp@{moveRobotUp}}
+\index{moveRobotUp@{moveRobotUp}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{moveRobotUp()}{moveRobotUp()}}
+{\footnotesize\ttfamily void Map.\+move\+Robot\+Up (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_robot}{Robot}}}]{robot }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Método para mover o robô para cima. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em robot} & Objeto do tipo \mbox{\hyperlink{class_robot}{Robot}} a ser movido.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_map_a934b9eb4bcaa6a481d593cc26f058b7e}\label{class_map_a934b9eb4bcaa6a481d593cc26f058b7e}} 
+\index{Map@{Map}!novaFase@{novaFase}}
+\index{novaFase@{novaFase}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{novaFase()}{novaFase()}}
+{\footnotesize\ttfamily void Map.\+nova\+Fase (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_robot}{Robot}}}]{robo }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Verifica o número de jóias no mapa e começa nova fase caso tenham acabado. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em robo} & Objeto do tipo robô\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_map_a0f8f64ce91638fc06de8b0e9f815be3f}\label{class_map_a0f8f64ce91638fc06de8b0e9f815be3f}} 
+\index{Map@{Map}!PrintMap@{PrintMap}}
+\index{PrintMap@{PrintMap}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{PrintMap()}{PrintMap()}}
+{\footnotesize\ttfamily void Map.\+Print\+Map (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Imprime mapa na tela. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Map.\+cs\end{DoxyCompactItemize}

@@ -1,0 +1,63 @@
+\hypertarget{class_blue}{}\doxysection{Blue Class Reference}
+\label{class_blue}\index{Blue@{Blue}}
+
+
+Inheritance diagram for Blue\+:
+% FIG 0
+
+
+Collaboration diagram for Blue\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_blue_a2a6d0c338ba927e00ab4f4ba31e565d7}{Blue}} (int x, int y)
+\begin{DoxyCompactList}\small\item\em Construtor da classe \mbox{\hyperlink{class_blue}{Blue}}. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_blue_a40ef76f799f47d2a18c8430c95bf6255}{give\+Energy}} ()
+\begin{DoxyCompactList}\small\item\em Dá energia para robô. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_blue_a2a6d0c338ba927e00ab4f4ba31e565d7}\label{class_blue_a2a6d0c338ba927e00ab4f4ba31e565d7}} 
+\index{Blue@{Blue}!Blue@{Blue}}
+\index{Blue@{Blue}!Blue@{Blue}}
+\doxysubsubsection{\texorpdfstring{Blue()}{Blue()}}
+{\footnotesize\ttfamily Blue.\+Blue (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Construtor da classe \mbox{\hyperlink{class_blue}{Blue}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Inteiro da posição da linha no mapa.\\
+\hline
+{\em y} & Inteiro da posição da coluna no mapa.\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_blue_a40ef76f799f47d2a18c8430c95bf6255}\label{class_blue_a40ef76f799f47d2a18c8430c95bf6255}} 
+\index{Blue@{Blue}!giveEnergy@{giveEnergy}}
+\index{giveEnergy@{giveEnergy}!Blue@{Blue}}
+\doxysubsubsection{\texorpdfstring{giveEnergy()}{giveEnergy()}}
+{\footnotesize\ttfamily int Blue.\+give\+Energy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Dá energia para robô. 
+
+\begin{DoxyReturn}{Returns}
+Inteiro com a quantia de energia que o robô recebe.
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_energyzer}{Energyzer}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Blue.\+cs\end{DoxyCompactItemize}
